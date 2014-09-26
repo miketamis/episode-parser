@@ -1,0 +1,18 @@
+{
+  "name": "episode-parser",
+  "description": "parses the filename of an tvshow episode returning key infomation",
+  "devDependencies": {
+    "jslint": "^0.3.3",
+    "mocha": "^1.18.2"
+  },
+  "scripts": {
+    "test": "npm run-script lint && mocha -R spec",
+    "lint": "jslint index.js test/*"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "debug": "^2.0.0",
+    "to-title-case": "^0.1.5"
+  },
+  "private": false
+}
